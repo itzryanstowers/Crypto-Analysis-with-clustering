@@ -17,6 +17,9 @@
 3. ### Finding the Optimal Number of Clusters (k):
   * To start the process of using this technique, we start with a method known as the "elbow method" which determines the ideal number of clusters (k) for K-means.
   * The elbow method involves calculating the inertia (a measure of how spread out the data points are within a cluster) for different values of k and plotting them. The optimal k is usually chosen when the line in the chart starts to plateau or bend (the "elbow" of the curve).
+
+ ![elbow chart](https://github.com/itzryanstowers/Crypto-Analysis-with-clustering/assets/113382980/fd31ae15-e118-4325-8b2e-eef9c0a3f8dc)
+
   
 4. ### Clustering with K-means (Original Data):
   * Once the optimal k is found, the script uses K-means clustering to group the cryptocurrencies into k clusters based on their price changes.
