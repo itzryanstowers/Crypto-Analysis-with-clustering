@@ -23,6 +23,9 @@
   * The script will then create a scatter plot visualizing the clusters using price changes over different timeframes.
   * The data points are colored coded according to their assigned cluster so you know which point reveals the corresponding cryptocurrency name.
 
+  * ![cluster_chart](https://github.com/itzryanstowers/Crypto-Analysis-with-clustering/assets/113382980/19b87d27-6c0b-4092-bcfa-91d995d80ce6)
+
+
 5. ### Optimizing Clusters with Principal Component Analysis (PCA):
   * After fitting the model and testing, We use PCA to improve the clustering by removing the most irrelevant features/columns within the scatter plot.
   * PCA also helps find the features/columns with the most variance which can be significant when looking at the crypto names.
