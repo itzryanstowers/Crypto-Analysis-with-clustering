@@ -23,7 +23,8 @@
   * The script will then create a scatter plot visualizing the clusters using price changes over different timeframes.
   * The data points are colored coded according to their assigned cluster so you know which point reveals the corresponding cryptocurrency name.
 
-  * ![cluster_chart](https://github.com/itzryanstowers/Crypto-Analysis-with-clustering/assets/113382980/19b87d27-6c0b-4092-bcfa-91d995d80ce6)
+  * ![cluster_chart](https://github.com/itzryanstowers/Crypto-Analysis-with-clustering/assets/113382980/9137430a-d21a-4761-9f50-bd78d7f7cd96)
+
 
 
 5. ### Optimizing Clusters with Principal Component Analysis (PCA):
@@ -38,6 +39,9 @@
 * To compare the clustering effectiveness, I created visualizations contrasting the results with and without PCA:
   * One visualization compared the elbow curves used to determine the optimal k in both scenarios (original data vs. PCA data).
   * Another visualization compared the scatter plots of the final clusters using the original data and the PCA data.
+ 
+* ![both_clusters](https://github.com/itzryanstowers/Crypto-Analysis-with-clustering/assets/113382980/a55ef736-fae3-4988-ac0f-4cf97337f2f7)
+
 
 ## Impact of Using Fewer Features:
 * By visually analyzing the comparisons, you will observed that using fewer features (principal components) result in clusters more spread out and easier to interpret due to the reduced number of columns used.
